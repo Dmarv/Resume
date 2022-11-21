@@ -1,4 +1,4 @@
-# Resume
+# Resume_MATLAB
 I added the project pdf for each for the details of each project but here I will write an overview of each.
 
 Project 2a,b
