@@ -1,4 +1,4 @@
-# Resume_repo
+# Resume_Python
 #homeowrk 1 
 """ 
 This python projects is taken from homework. It demonstrate a general understanding of Python.
