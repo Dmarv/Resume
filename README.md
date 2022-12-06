@@ -20,6 +20,7 @@ Project 4
 Here we did classification with Support vector machines. I have since learned much more about this technique and how we can use
 the kernel technique to lift it into higher space to find non-linear separations. Sadly, it does suffer from the curse of dimensionality. 
 """
+
 Project 5
 """
 Here I used simple ridge regression. Since then, I've learned much more about regression and Linear algebra.
