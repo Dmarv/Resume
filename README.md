@@ -43,6 +43,7 @@ Here, I used Markov decision models to generate predictive text. I generated a "
 N-gram models (with padding) to find the probability a certain word would follow given the context or previous works. This was Markov’s observation -
 The past is independent of the future given the present. 
 """
+
 #homework 9
 """
 This was a soft introduction to categorical analysis using Perceptrons. Since this project I've studied many more techniques and have much better understanding
