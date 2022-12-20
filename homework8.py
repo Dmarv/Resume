@@ -18,6 +18,7 @@ import re
 # Section 1: Markov Models
 ############################################################
 
+
 def tokenize(text):
     t = string.punctuation + ' '
     x = '\n\r\t\x0b\x0c'
@@ -108,6 +109,7 @@ class NgramModel(object):
 
         return li[math.floor(r * l)]
 
+    # takes in the number of words you want in the randomly generated text
     def random_text(self, token_count):
         text = ""
         li = []
@@ -147,7 +149,7 @@ class NgramModel(object):
 
         pass
 
-
+# takes in the number of n-grams you want in your context and the file path of the text you want your model based on
 def create_ngram_model(n, path):
     file = open(path)
     lines = file.readlines()
@@ -160,11 +162,11 @@ def create_ngram_model(n, path):
     pass
 
 
-# m = NgramModel(2)
-# m.update("a b c d")
-# m.update("a b a b")
-# b = m.perplexity("a b")
-# print(b)
+model = create_ngram_model(3, "frankenstein.txt")
+print(model.random_text(50))
+
+
+
 
 ############################################################
 # Section 2: Feedback
