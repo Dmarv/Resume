@@ -17,6 +17,7 @@ This project was about searching spaces efficiently and involved two parts.
 The first was finding a general solution to the sliding grid problem using heuristics like Manhattan distance. 
 The second part was finding shortest paths over a grid with walls using a-star which also uses heuristics.  
 """
+
 #homework 4
 """
 This project was a tiling problem called the domino problem. It makes use of function that find all valid moves
