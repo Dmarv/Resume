@@ -41,7 +41,7 @@ I did not include this since it had a lot animations that we not my own code to 
 #homework 8
 """
 Here, I used Markov decision models to generate predictive text. I generated a "fake" book based off of Frankenstein. I used techniques like
-N-gram models (with padding) to find the probability a certain word would follow given the context or previous works. This was Markov’s observation -
+N-gram models (with padding) to find the probability a certain word would follow given the context or previous words. This was Markov’s observation -
 The past is independent of the future given the present. 
 """
 
