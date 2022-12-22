@@ -690,25 +690,3 @@ def solve_distinct_disks(length, n):
 #
 # pr.print_stats(sort="calls")
 
-############################################################
-# Section 4: Feedback
-############################################################
-
-# Just an approximation is fine.
-feedback_question_1 = 29
-
-feedback_question_2 = """
-I found the heuristic for the GridNav to be insufficient. That was terribly misleading.  
-"""
-
-feedback_question_3 = """
-I liked the nuances of how to store the visited board states based on the problem. I really enjoyed how in the grid 
-navigation problem, you could store the visited nodes in a 2 dimensional array as opposed to just a list like the other
-problems. 
-
-I liked how after every problem, I was able to approach the subsequent problem with a more efficient plan. If you look
-through my code, you can see the evolution of strategy. 
-
-As you can see, by the time I got the the third problem, I had thought so much about the structure of these solutions
-that I was able to solve it in a fraction of the time.
-"""
