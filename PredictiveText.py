@@ -15,7 +15,7 @@ import re
 # Section 1: Markov Models
 ############################################################
 
-
+# here we take in a text and tokenize it based on punctuation
 def tokenize(text):
     t = string.punctuation + ' '
     x = '\n\r\t\x0b\x0c'
@@ -46,6 +46,11 @@ def tokenize(text):
         tokens.append(text[start:end - 1])
     return tokens
 
+### takes in a "tokens" and the size "n" of the context and adds padding before and after for the edges of the sentences
+# context simple means how many words before the actually word we care about we want to include in for our predictions
+# for example if we want to know what word comes after the word "word" we can look at all cases of the word "want" and what
+# follows. For a better guess, we can look at the word befoer "word" for a better prediction. These preceeding words are called "context"
+###
 
 def ngrams(n, tokens):
     sentence = ['<START>'] * n
@@ -68,18 +73,18 @@ def ngrams(n, tokens):
 
     return rtn
 
-
+# creats a class for the model
 class NgramModel(object):
-
+    #every object in this class has its own text and size of the model context
     def __init__(self, n):
         self.text = []
         self.n = n
-
+    #breaks a sentence into a bunch of n-size array starting from the first word to the last with padding
     def update(self, sentence):
         tok = tokenize(sentence)
         self.text.extend(ngrams(self.n, tok))
         pass
-
+    # find the probabilty the next word given the context
     def prob(self, context, token):
         total = 0
         tokenCount = 0
@@ -121,7 +126,7 @@ class NgramModel(object):
         for word in li:
             text += word + " "
         return text[0: len(text) - 1]
-
+    #how sophisticated your sentence is 
     def perplexity(self, sentence):
         # tokenize the sentence and add the start and end buffers
         words = tokenize(sentence)
