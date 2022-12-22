@@ -17,25 +17,25 @@ A Project (with peer) using Python that demonstrates many standard analysis tech
 This demonstrates the manipulation of DataFrames and the ability to perform complex queries in both the pandas Python library and SQL.
 """
 
-#homeowrk 1 
+#Python Demo
 """ 
 This python projects is taken from homework. It demonstrate a general understanding of Python.
 """
 
-#homework 2:
+#Search Problems with Backtracking
 """This project focused on solving simple problems such as n_queens, lights out and linear disk movement problems. 
 It involved creating a space, generation next moves, find the valid moves of those moves. The main solutions used 
 recursion as each step in the process shared form with the next step and the technique has backtracking baked into it. 
 """
 
-#homework 3
+#Shortest Path
 """ 
 This project was about searching spaces efficiently and involved two parts. 
 The first was finding a general solution to the sliding grid problem using heuristics like Manhattan distance. 
 The second part was finding shortest paths over a grid with walls using a-star which also uses heuristics.  
 """
 
-#homework 4
+#Search Problems with pruning
 """
 This project was a tiling problem called the domino problem. It makes use of function that find all valid moves
 and gets the next best one similar to the previous projects. This one differs in that I made use of alpha beta pruning
