@@ -1,9 +1,26 @@
 # Resume_Python
+
+#Predictive Text
+"""
+Here, I used Markov decision models to generate predictive text. I generated a "fake" book based off of Frankenstein. I used techniques like
+N-gram models (with padding) to find the probability a certain word would follow given the context or previous words. This was Markov’s observation -
+The past is independent of the future given the present. 
+"""
+
+#Analysis of Heart Disease
+"""
+A Project (with peer) using Python that demonstrates many standard analysis techniques including dimensionality reduction, regularized regression, random forests, neural networks, and ensembles (combining models).
+"""
+
+#Big Data Queries Project 
+"""
+This demonstrates the manipulation of DataFrames and the ability to perform complex queries in both the pandas Python library and SQL.
+"""
+
 #homeowrk 1 
 """ 
 This python projects is taken from homework. It demonstrate a general understanding of Python.
 """
-
 
 #homework 2:
 """This project focused on solving simple problems such as n_queens, lights out and linear disk movement problems. 
@@ -38,12 +55,6 @@ I did not include this since it had a lot animations that we not my own code to 
  and punish him for failing. I would update the probabilties as needed using bayes nets. 
 """
 
-#homework 8
-"""
-Here, I used Markov decision models to generate predictive text. I generated a "fake" book based off of Frankenstein. I used techniques like
-N-gram models (with padding) to find the probability a certain word would follow given the context or previous words. This was Markov’s observation -
-The past is independent of the future given the present. 
-"""
 
 #homework 9
 """
