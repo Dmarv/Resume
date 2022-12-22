@@ -166,24 +166,3 @@ model = create_ngram_model(3, "frankenstein.txt")
 print(model.random_text(50))
 
 
-
-
-############################################################
-# Section 2: Feedback
-############################################################
-
-feedback_question_1 = 8
-
-feedback_question_2 = """None of the assignment felt overwhelming. It gently guided us through the language modeling. 
-I did misunderstand some specific items that were unrelated to the modeling idea itself. For example, in the tokenizer, 
-I didn't exactly internalize what "white space characters" meant. I didn't even realize the 'xb' notations existed until 
-I printed them out in grade-scope so I ended up tokenizing them as characters instead of just using them as references 
-to tokenize other characters. This actually hinder progress in other methods since, it turns out, the other methods had
- no errors, but I could not confirm that until I fixed the edge case in the tokenizer. """
-
-feedback_question_3 = """The overall assignment did what it was meant to do. It broke down the most basic components 
-that go into language modeling using a database. I can see that there are many direction one can take from here to 
-improve the modeling or customize it. I would have just clarified some of the finer details. Maybe a clearer 
-definition of "white-space characters." Another example is that I am not sure how to use log-space to prevent 
-overflow. I just did some other algebraic tricks to keep it from overflowing like keeping them in integer form until 
-the very end. A link to an article about the log-space would be nice. """
