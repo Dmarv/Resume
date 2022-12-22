@@ -42,7 +42,7 @@ and gets the next best one similar to the previous projects. This one differs in
 in the recursion tree to limit the search space. 
 """
 
-#homework 5
+#Constraint Satisfaction Problems
 """
 Here, I solved the sudoku problem with classic constrain satisfaction algorithms like ac3. It tested my ability to properly make 
 a recursive function that backtracks. I added some "guessing" to solve harder sudoku problems which cannot be solved with pure constraints.
