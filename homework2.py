@@ -444,23 +444,3 @@ def solve_distinct_disks(length, n):
 # pr.print_stats(sort="calls")
 
 
-############################################################
-# Section 4: Feedback
-############################################################
-
-feedback_question_1 = """
-part 1 took me 6 hours. part 2 took me 6 hours. part 3 took me 3 hours
-"""
-
-feedback_question_2 = """
-I miss interpreted successors() in part 2 to mean predecessors().
-It wasnt obvious to me that it just mean List_next_valid_moves().
-I searched the n_queens problem with depth first, but instead of using a q, I used recursion. I'm not sure why
-I thought this would be better. 
-"""
-
-feedback_question_3 = """
-I liked how the problems were all similar yet sufficiently different enough to prevent the project from getting stale. 
-I would add a bit of guidance regard how to retrieve the path back after we have found the solved game state at some 
-point in the homework.
-"""
