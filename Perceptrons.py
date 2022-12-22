@@ -1,8 +1,3 @@
-############################################################
-# CIS 521: Homework 8
-############################################################
-
-
 student_name = "Type your full name here."
 
 ############################################################
@@ -280,19 +275,3 @@ def myst_2_cut_off(weight, vector):
 # for vec, cat in data.mystery2:
 #     print(cat)
 
-
-
-############################################################
-# Section 3: Feedback
-############################################################
-
-feedback_question_1 = 4
-
-feedback_question_2 = """Mystery question 2 took longer than I expected. Additionally, figuring out that I should 
-reduce the vector to one dimention was not obvious. I also struggled with how to update the weights if it 
-mis-categorized. I became obvious later that I should apply the transformation before I added it though. """
-
-feedback_question_3 = """
-It introduced the nuances appropriately. Meaning, each questions was just slightly more encompassing than the previous.
-I would make no changes.
-"""
