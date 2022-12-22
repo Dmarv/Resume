@@ -211,22 +211,3 @@ def pretty_print(board):
 # g = DominoesGame(b)
 # print(g.get_best_move(True, 2))
 
-############################################################
-# Section 2: Feedback
-############################################################
-
-feedback_question_1 = 20
-
-feedback_question_2 = """
-I thought that the videos on the alpha-beta pruning could have been clearer. I could get the correct answer after maybe
-an hour of coding, but the pruning took a headaches worth of time. I found some supplementary material
-that explained it a bit better. I think the biggest stumbling block was that I am not familiar with python and recursion
-in general. Its akin to a self replicating robot. Every change I make has a butterfly effect and it am just not used to
-it. I am sure if i did some more studies into recursive coding, I would find general patterns and develop my intuition. 
-"""
-
-feedback_question_3 = """
-I enjoyed finally figuring it out.
-I am also proud of certain aspects of my code design. Like, putting the limit and depth
-as a variable in the object to keep it more clean as traverse through the depth of recursion. 
-"""
