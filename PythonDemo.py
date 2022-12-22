@@ -1,6 +1,4 @@
-############################################################
-# CIS 521: Homework 1
-############################################################
+
 import numpy as np
 from nltk import sent_tokenize, word_tokenize, RegexpTokenizer, pos_tag
 from nltk.corpus import stopwords
