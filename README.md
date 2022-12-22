@@ -56,7 +56,7 @@ I did not include this since it had a lot animations that we not my own code to 
 """
 
 
-#homework 9
+#Perceptrons
 """
 This was a soft introduction to categorical analysis using Perceptrons. Since this project I've studied many more techniques and have much better understanding
 of logistic regression and other categorical analysis techniques. 
